@@ -7,8 +7,8 @@ export interface IProjetos{
     description: string,
     links: [
     {
-      name: 'Conheça',
-      href: 'https://programadorAnderson.com.br',
+      name: string;
+      href: string;
     },
   ];
 }
