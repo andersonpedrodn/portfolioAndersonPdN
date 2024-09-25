@@ -3,4 +3,17 @@
 <main>
     <app-conhecimentos />
     <app-experiencias />
-</main>
+
+    
+    @defer(on viewport){
+        <app-projetos />
+    } @placeholder {
+    <section>
+        <h2>Carregando todos os projetos desenvolvidos...</h2>
+    </section>
+    } @error {
+    <section>
+        <h2>Ocorreu um erro no download do componente, tente novamente...   </h2>
+    </section>
+    }
+</main> 
