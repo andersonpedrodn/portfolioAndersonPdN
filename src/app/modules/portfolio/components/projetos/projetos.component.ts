@@ -13,7 +13,7 @@ import { IProjetos } from '../../interface/IProjetos.interface';
 export class ProjetosComponent {
   public arrayProjetos = signal<IProjetos[]>([
     {
-      src: '/Angular/portfolioAndersonPdN/src/assets/img/projetos/vfull.png',
+      src: 'assets/img/projetos/loading.png',
       alt: 'Projeto em construção',
       title: 'Projeto em construção',
       width: '100px',
@@ -23,6 +23,54 @@ export class ProjetosComponent {
         name: 'Conheça',
         href: 'https://programadorAnderson.com.br',
       }]
-    }
-  ])
+    },
+    {
+      src: 'assets/img/projetos/loading.png',
+      alt: 'Projeto em construção',
+      title: 'Projeto em construção',
+      width: '100px',
+      height: '51px',
+      description: '',
+      links: [{
+        name: 'Conheça',
+        href: 'https://programadorAnderson.com.br',
+      }]
+    },
+    {
+      src: 'assets/img/projetos/loading.png',
+      alt: 'Projeto em construção',
+      title: 'Projeto em construção',
+      width: '100px',
+      height: '51px',
+      description: '',
+      links: [{
+        name: 'Conheça',
+        href: 'https://programadorAnderson.com.br',
+      }]
+    },
+    {
+      src: 'assets/img/projetos/loading.png',
+      alt: 'Projeto em construção',
+      title: 'Projeto em construção',
+      width: '100px',
+      height: '51px',
+      description: '',
+      links: [{
+        name: 'Conheça',
+        href: 'https://programadorAnderson.com.br',
+      }]
+    },
+    {
+      src: 'assets/img/projetos/loading.png',
+      alt: 'Projeto em construção',
+      title: 'Projeto em construção',
+      width: '100px',
+      height: '51px',
+      description: '',
+      links: [{
+        name: 'Conheça',
+        href: 'https://programadorAnderson.com.br',
+      }]
+    },
+  ]);
 }

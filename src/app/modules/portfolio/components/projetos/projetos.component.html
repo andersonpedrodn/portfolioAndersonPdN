@@ -5,7 +5,7 @@
         @for(item of arrayProjetos(); track item){
         <li> 
             <button>
-                <img src="item.src" alt="item.alt" [attr.width]="item.width" [attr.height]="item.height" loading="lazy">
+                <img [src]="item.src" [alt]="item.alt" [attr.width]="item.width" [attr.height]="item.height" loading="lazy">
             </button>
         </li>
         }
